@@ -56,7 +56,8 @@
 
       <!--Texto de Bem vindo-->
     <div class="container"  style="margin-top:5%;width:40%;">
-      <h4 align="center">Formulário de contato</h4>
+      <br>
+      <h5 align="center">Formulário de contato</h5>
       <br>
       <form method="post">
           <div class="input-field col s12">
