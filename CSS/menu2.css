@@ -1,0 +1,65 @@
+.navbar{
+	 margin-bottom: 0;
+}
+.jumbotron{
+	padding-top: 100px;
+	background-color: white;
+	padding-left: 25%;
+	padding-right:25%;
+	
+}
+.display-4{
+font-size: 35pt;
+	
+}
+
+
+#nav-fundo{
+	margin-top: 60px;
+
+	
+}
+.row{
+	margin-left: 7%;
+	margin-right: 7%;
+	box-shadow: 3px 3px 40px black;
+}
+#bth{
+	color: white;
+	width: 100%;
+	height: 100%;
+	background-color: #808080;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25pt;
+}
+
+#poliedros{
+	padding-left: 60px;
+}
+
+.col-sm{
+	border:4px solid white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	background-image: linear-gradient(to bottom, #868e96, black 200%);
+
+}
+
+li{
+	list-style: none;
+	color: white;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: black;
+	transition-duration: 1.3s;
+
+
+}
