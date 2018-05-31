@@ -49,7 +49,7 @@
         <a href="index.php" class="brand-logo">&nbsp;SideForm</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sobre.php">Quem somos</a></li>
-          <li><a href="badges.html">Contato</a></li>
+          <li><a href="contato.php">Contato</a></li>
           <li><a id="but">Ajuda</a></li>
         </ul>
       </div>
