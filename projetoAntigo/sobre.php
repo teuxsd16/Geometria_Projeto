@@ -56,7 +56,8 @@
 
       <!--Texto de Bem vindo-->
     <div class="container"  style="margin-top:5%;">
-        <p style="font-size:25px;" align="justify">A MK Corporation é uma empresa de desenvolvimento de softaware, fundada por alunos do 3º ANO de informática do Instituto Federal de Educação, Ciência e Tecnologia da Bahia Campus Jequié. Tem como fundadores os seguintes discentes : Djair Maykon, João Felipe Regis, Kaione Oliveira, Matheus Carvalho.A MK além de desenvolver aplicações WEB pode criar sistemas de banco de dados</p>
+        <h4>Quem somos</h4>
+        <p style="font-size:22px;" align="justify">A MK Corporation é uma empresa de desenvolvimento de softaware, fundada por alunos do 3º ANO de informática do Instituto Federal de Educação, Ciência e Tecnologia da Bahia Campus Jequié. Tem como fundadores os seguintes discentes : Djair Maykon, João Felipe Regis, Kaione Oliveira, Matheus Carvalho.A MK além de desenvolver aplicações WEB pode criar sistemas de banco de dados</p>
     </div>
 
 
