@@ -24,9 +24,19 @@
     <title>SideForm</title>
   </head>
 
-  <body background="img/cover.jpg">
-    <!-- Navbar do topo-->
+  <?php
 
+    if($_SERVER['SERVER_ADDR'] == '::1'){
+      $caminhoServidor = 'http://' . $_SERVER['SERVER_NAME'] . '/Geometria_Projeto';
+    }else{
+      $caminhoServidor = 'http://' . $_SERVER['SERVER_ADDR'] . '/Geometria_Projeto';
+    }
+
+  ?>
+
+  <body background="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>">
+
+    <!-- Navbar do topo-->
     <nav class="blue nav-extended">
       <div class="nav-wrapper">
         <a href="index.php" class="brand-logo">&nbsp;SideForm</a>
