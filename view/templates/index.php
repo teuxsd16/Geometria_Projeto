@@ -55,7 +55,7 @@
     </ul>
 
     <!--Texto de Bem vindo-->
-    <div class="container"  style="margin-top:5%;">
+    <div class="container"  style="margin-top:10%; margin-bottom:5%;">
       <h2 class="header center white-text" id="text1">Bem vindo</h2>
       <div class="row center">
         <h5 class="header col s12 light">Uma maneira mais prática de aprender sobre sólidos geométricos</h5>

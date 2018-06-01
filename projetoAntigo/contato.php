@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-
       <style type="text/css">
         #text1{
 
@@ -56,49 +55,17 @@
 
 
       <!--Texto de Bem vindo-->
-    <div class="container"  style="margin-top:5%;width:40%;">
-      <br>
-      <h5 align="center" class="flow-text">Formulário de contato</h5>
-      <br>
-      <form method="post">
-          <div class="input-field col s12">
-            <i class="material-icons prefix">account_circle</i>
-            <input type="text" id="nome" class="autocomplete" required>
-            <label for="nome">Nome</label>
-          </div>
-
-          <div class="input-field col s12">
-            <i class="material-icons prefix">email</i>
-            <input type="email" id="email" class="autocomplete" required>
-            <label for="email">E-mail</label>
-          </div>
-
-          <div class="input-field col s12">
-            <i class="material-icons prefix">smartphone</i>
-            <input type="tel" id="tel" class="autocomplete" required>
-            <label for="tel">Telefone</label>
-          </div>
-          <div class="input-field col s12">
-            <i class="material-icons prefix">mode_edit</i>
-            <textarea id="textarea1" class="materialize-textarea" required maxlength="200" data-length="120"></textarea>
-            <label for="textarea1">Textarea</label>
-          </div>
-          <br>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
-            <i class="material-icons right">send</i>
-          </button>
-      </form>
+    <div class="container"  style="margin-top:5%;">
+        <h4>Quem somos<h4>
+        <p style="font-size:25px;" align="justify">A MK Corporation é uma empresa de desenvolvimento de softaware, fundada por alunos do 3º ANO de informática do Instituto Federal de Educação, Ciência e Tecnologia da Bahia Campus Jequié. Tem como fundadores os seguintes discentes : Djair Maykon, João Felipe Regis, Kaione Oliveira, Matheus Carvalho.A MK além de desenvolver aplicações WEB pode criar sistemas de banco de dados</p>
     </div>
 
 
-      <script>
 
-    //  $(document).ready(function() {
-          //$('input#input_text, textarea#textarea1').characterCounter();
-      //  });
-      </script>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   </body>
 </html>
+
+      <!-- <p class="lead">A MK Corporation é uma empresa de desenvolvimento de softaware, fundada por alunos do 3º ANO de informática do Instituto Federal de Educação, Ciência e Tecnologia da Bahia Campus Jequié. Tem como fundadores os seguintes discentes : Djair Maykon, João Felipe Regis, Kaione Oliveira, Matheus Carvalho. -->
+      <!-- A MK além de desenvolver aplicações WEB pode criar sistemas de banco de dados</p>  -->
