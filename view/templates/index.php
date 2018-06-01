@@ -22,6 +22,7 @@
     </style>
 
     <title>SideForm</title>
+
   </head>
 
   <?php
@@ -44,14 +45,14 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sobre.php">Quem somos</a></li>
           <li><a href="contato.php">Contato</a></li>
-          <li><a id="but">Ajuda</a></li>
+          <li><a id="ajuda" onclick="$('.tap-target').tapTarget('open')">Ajuda</a></li>
         </ul>
       </div>
     </nav>
     <ul class="sidenav blue" id="mobile-demo">
       <li><a href="sobre.php">Quem somos</a></li>
       <li><a href="contato.php">Contato</a></li>
-      <li><a href="#">Ajuda</a></li>
+      <li><a id="ajuda">Ajuda</a></li>
     </ul>
 
     <!--Texto de Bem vindo-->
