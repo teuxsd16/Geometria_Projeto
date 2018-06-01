@@ -8,13 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
     <style type="text/css">
-
       #text1{
         font-family: 'Advent Pro', sans-serif;
-      }
-
-      #butt{
-         width: 180px;
       }
       body{
         background-size: cover;
@@ -24,17 +19,6 @@
         padding-left: 15%;
         padding-right: 15%;
       }
-
-      .painel{
-        width: 100%;
-        height: 300px;
-      }
-
-      .pan1{
-        border-left: 1px solid black;
-        margin-bottom: 2%;
-      }
-
     </style>
 
     <title>SideForm</title>
@@ -46,6 +30,7 @@
     <nav class="blue ">
       <div class="nav-wrapper nav-fixed">
         <a href="index.php" class="brand-logo">&nbsp;SideForm</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sobre.php">Quem somos</a></li>
           <li><a href="contato.php">Contato</a></li>
@@ -57,7 +42,6 @@
 
       <!--Texto de Bem vindo-->
     <div class="container"  style="margin-top:5%;">
-      <br><br><br>
       <h2 class="header center white-text" id="text1">Bem vindo</h2>
       <div class="row center">
         <h5 class="header col s12 light">Uma maneira mais prática de aprender sobre sólidos geométricos</h5>
@@ -65,7 +49,7 @@
       <div class="row center">
         <a href="" id="download-button" class="btn-large waves-effect waves-light ">Vamos estudar</a>
       </div>
-      <br><br>
+      <br>
     </div>
 
     <div class="container">
@@ -106,7 +90,7 @@
         </div>
       </div>
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   </body>
