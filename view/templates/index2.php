@@ -28,11 +28,11 @@
 
 <?php
 
-  if($_SERVER['SERVER_ADDR'] == '::1'){
-    $caminhoServidor = '/Geometria_Projeto';
-  }else{
-    $caminhoServidor = '/Geometria_Projeto';
-  }
+if($_SERVER['SERVER_ADDR'] == '::1'){
+  $caminhoServidor = 'http://' . $_SERVER['SERVER_NAME'] . '/Geometria_Projeto';
+}else{
+  $caminhoServidor = 'http://' . $_SERVER['SERVER_ADDR'] . '/Geometria_Projeto';
+}
 
 ?>
 
@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="<?php echo $caminhoServidor . '/view/img/cover2.jpg'; ?>" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -165,7 +165,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="<?php echo $caminhoServidor . '/view/img/cover3.jpg'; ?>" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -207,8 +207,11 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../../dist/js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
+  <script src="<?php echo $caminhoServidor . '/view/js/materialize.min.js'; ?>"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+  $('.parallax').parallax();
+  });
+  </script>
   </body>
 </html>
