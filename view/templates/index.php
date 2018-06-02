@@ -105,8 +105,11 @@
         </div>
       </div>
     </div>
+
     <div class="fixed-action-btn">
-      <a id="menu" class="waves-effect waves-light btn-large btn-floating" ><i class="material-icons">menu</i></a>
+      <a id="menu" class="waves-effect waves-light btn-large btn-floating" onclick="$('.tap-target').tapTarget('open')">
+        <i class="material-icons">menu</i>
+      </a>
     </div>
     <div class="tap-target" data-target="menu">
       <div class="tap-target-content">
@@ -121,6 +124,7 @@
 
       $(document).ready(function(){
         $('.sidenav').sidenav();
+        $('.tap-target').tapTarget();
       });
 
     </script>
