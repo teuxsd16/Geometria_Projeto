@@ -12,10 +12,10 @@
         #text1{
           font-family: 'Advent Pro', sans-serif;
         }
-        .imgConserto{
+        /* .imgConserto{
           max-width: 100%;
           height: auto;
-        }
+        } */
         body{
           background-size: cover;
           background-position: center;
