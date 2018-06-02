@@ -22,6 +22,7 @@
     </style>
 
     <title>SideForm</title>
+
   </head>
 
   <?php
@@ -44,18 +45,18 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sobre.php">Quem somos</a></li>
           <li><a href="contato.php">Contato</a></li>
-          <li><a id="but">Ajuda</a></li>
+          <li><a id="ajuda" onclick="$('.tap-target').tapTarget('open')">Ajuda</a></li>
         </ul>
       </div>
     </nav>
     <ul class="sidenav blue" id="mobile-demo">
       <li><a href="sobre.php">Quem somos</a></li>
       <li><a href="contato.php">Contato</a></li>
-      <li><a href="#">Ajuda</a></li>
+      <li><a id="ajuda">Ajuda</a></li>
     </ul>
 
     <!--Texto de Bem vindo-->
-    <div class="container"  style="margin-top:5%;">
+    <div class="container"  style="margin-top:10%; margin-bottom:5%;">
       <h2 class="header center white-text" id="text1">Bem vindo</h2>
       <div class="row center">
         <h5 class="header col s12 light">Uma maneira mais prática de aprender sobre sólidos geométricos</h5>
@@ -102,6 +103,15 @@
           </div>
 
         </div>
+      </div>
+    </div>
+    <div class="fixed-action-btn">
+      <a id="menu" class="waves-effect waves-light btn-large btn-floating" ><i class="material-icons">menu</i></a>
+    </div>
+    <div class="tap-target" data-target="menu">
+      <div class="tap-target-content">
+        <h5>Title</h5>
+        <p>A bunch of text</p>
       </div>
     </div>
 
