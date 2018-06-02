@@ -38,6 +38,20 @@
   <body background="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>">
 
     <!-- Navbar do topo-->
+    <!-- Coteúdo -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+    <!-- Exercícios -->
+    <ul id="dropdown2" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
     <nav class="blue nav-extended">
       <div class="nav-wrapper">
         <a href="index.php" class="brand-logo">&nbsp;SideForm</a>
@@ -45,7 +59,11 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sobre.php">Quem somos</a></li>
           <li><a href="contato.php">Contato</a></li>
-          <li><a id="ajuda" onclick="$('.tap-target').tapTarget('open')">Ajuda</a></li>
+          <li><a href="contato.php">Forúm</a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Conteúdo<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Exercícios<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
         </ul>
       </div>
     </nav>
@@ -125,6 +143,7 @@
       $(document).ready(function(){
         $('.sidenav').sidenav();
         $('.tap-target').tapTarget();
+        $(".dropdown-trigger").dropdown();
       });
 
     </script>
