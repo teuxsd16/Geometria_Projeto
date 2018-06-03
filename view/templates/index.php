@@ -12,10 +12,10 @@
         #text1{
           font-family: 'Advent Pro', sans-serif;
         }
-        .imgConserto{
+        /* .imgConserto{
           max-width: 100%;
           height: auto;
-        }
+        } */
         body{
           background-size: cover;
           background-position: center;
@@ -25,9 +25,9 @@
           padding-right: 15%;
         }
         .parallax-container {
-          min-height: 380px;
+          /* min-height: 380px;
           line-height: 0;
-          height: auto;
+          height: auto; */
           color: rgba(255,255,255,.9);
         }
         .parallax-container .section {
