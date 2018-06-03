@@ -12,10 +12,9 @@
         #text1{
           font-family: 'Advent Pro', sans-serif;
         }
-        /* .imgConserto{
-          max-width: 100%;
-          height: auto;
-        } */
+        .imgConserto1{
+          height: 100%;
+        }
         body{
           background-size: cover;
           background-position: center;
@@ -25,10 +24,10 @@
           padding-right: 15%;
         }
         .parallax-container {
-          /* min-height: 380px;
+          /*min-height: 380px;
           line-height: 0;
-          height: auto; */
-          color: rgba(255,255,255,.9);
+          height: auto;
+          */color: rgba(255,255,255,.9);
         }
         .parallax-container .section {
           width: 100%;
@@ -68,23 +67,13 @@
         <a href="#" class="brand-logo">&nbsp;SideForm</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="sidenav" id="mobile-demo">
-          <li><a href="contato.php">Forúm</a></li>
+          <li><a href="forum.php">Forúm</a></li>
+            <li><a href="forum.php">Forúmdfd</a></li>
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="contato.php">Forúm</a></li>
-          <!-- Dropdown Trigger -->
-          <li>
-            <a class="dropdown-trigger" href="#!" data-target="dropdownConteudo">
-              Conteúdo
-              <i class="material-icons right">arrow_drop_down</i>
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-trigger" href="#!" data-target="dropdownExercicios">
-              Exercícios
-              <i class="material-icons right">arrow_drop_down</i>
-            </a>
-          </li>
+          <li><a href="forum.php">Forúm</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdownConteudo">Conteúdo<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdownExercicios">Exercícios<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
     </nav>
@@ -92,7 +81,7 @@
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
-          <!-- <br><br><br> -->
+          <br><br><br>
           <h1 class="header center teal-text text-lighten-2">Bem-vindo</h1>
           <div class="row center">
             <h5 class="header col s12 light">A melhor forma para brincar com sólidos geométricos você encontra aqui.</h5>
@@ -103,7 +92,7 @@
           <!-- <br><br> -->
         </div>
       </div>
-      <div class="parallax">  <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" ></div>
+      <div class="parallax">  <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" ></div>
     </div>
 
     <div class="container">
@@ -133,7 +122,7 @@
                 <i class="large material-icons">settings</i>
               </h2>
               <h5 class="center">Configure a forma que desejar</h5>
-              <p class="light">Liberdade para muudar os valores dos sólidos e conferir o resultado, em tempo real.</p>
+              <p class="light">Liberdade para mudar os valores dos sólidos e conferir o resultado, em tempo real.</p>
             </div>
           </div>
         </div>
@@ -158,7 +147,7 @@
         <div class="row">
           <div class="col s12 center">
             <h4>Quem somos</h4>
-            <p class="left-align light">Somos um grupo composto pelos seguintos alunos: Jefferson de Jesus Santos, Kaione Oliveira, Djair Maikon, João Felipe e Matheus Santos Carvalho, esses advindos do Instituto Federal de Educação, Ciência e Tecnologia da Bahia, campus Jequié. O programa foi feito no intuito de diversificar os modos de estudo, relacionados aos assuntos de Geometria Espacial. Suportado em ambientes web e mobile.</p>
+            <p class="left-align light">Somos um grupo composto pelos seguintos alunos: Jefferson de Jesus Santos, Kaione Oliveira, Djair Maikon, João Felipe e Matheus Santos Carvalho, esses advindos do Instituto Federal de Educação, Ciência e Tecnologia da Bahia, campus Jequié. O programa foi feito no intuito de diversificar os modos de estudo, relacionados aos assuntos de Geometria Espacial. O acesso fácil á educação é nossa função e queremos visar uma nova realidade fora dos livros.</p>
           </div>
         </div>
       </div>
