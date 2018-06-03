@@ -35,7 +35,7 @@
         }
       </style>
 
-    <title>Parallax Template - Materialize</title>
+    <title>SideForm</title>
   </head>
 
   <?php
@@ -63,49 +63,48 @@
       <li class="divider"></li>
       <li><a href="#!">three</a></li>
     </ul>
+    <nav class=" blue nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">&nbsp;SideForm</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="contato.php">Forúm</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="contato.php">Forúm</a></li>
+          <!-- Dropdown Trigger -->
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdownConteudo">
+              Conteúdo
+              <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdownExercicios">
+              Exercícios
+              <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="parallax-container halign-wrapper">
-      <nav class=" transparent nav-extended">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">&nbsp;SideForm</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="contato.php">Forúm</a></li>
-          </ul>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="contato.php">Forúm</a></li>
-            <!-- Dropdown Trigger -->
-            <li>
-              <a class="dropdown-trigger" href="#!" data-target="dropdownConteudo">
-                Conteúdo
-                <i class="material-icons right">arrow_drop_down</i>
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-trigger" href="#!" data-target="dropdownExercicios">
-                Exercícios
-                <i class="material-icons right">arrow_drop_down</i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
-          <h1 class="header center teal-text text-pink-2">Bem vindo</h1>
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2">Bem-vindo</h1>
           <div class="row center">
-            <h5 class="header col s12 light">Uma maneira mais prática de aprender sobre sólidos geométricos</h5>
+            <h5 class="header col s12 light">A melhor forma para brincar com sólidos geométricos você encontra aqui.</h5>
           </div>
           <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
           </div>
+          <br><br>
+
         </div>
       </div>
-      <div class="parallax">
-        <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" alt="Unsplashed background img 1">
-      </div>
+      <div class="parallax">  <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" ></div>
     </div>
 
     <div class="container">
@@ -117,7 +116,7 @@
                 <i class="large material-icons">access_time</i>
               </h2>
               <h5 class="center">Aprenda mais rápido</h5>
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              <p class="light">Confira os assuntos estudados em sala de aula, só que agora, de uma forma prática. Teste seus conhecimetos e conclua que com a prática, a perfeição fica mais fácil de ser alcançada.</p>
             </div>
           </div>
           <div class="col s12 m4">
@@ -126,7 +125,7 @@
                 <i class="large material-icons">aspect_ratio</i>
               </h2>
               <h5 class="center">Brinque com os objetos</h5>
-              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+              <p class="light">Se divirta movendo os sólidos, analisando suas dimensões e usufruindo das animações</p>
             </div>
           </div>
           <div class="col s12 m4">
@@ -135,7 +134,7 @@
                 <i class="large material-icons">settings</i>
               </h2>
               <h5 class="center">Configure a forma que desejar</h5>
-              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              <p class="light">Liberdade para muudar os valores dos sólidos e conferir o resultado, em tempo real.</p>
             </div>
           </div>
         </div>
@@ -159,8 +158,8 @@
       <div class="section">
         <div class="row">
           <div class="col s12 center">
-            <h4>Contact Us</h4>
-            <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            <h4>Quem somos</h4>
+            <p class="left-align light">Somos um grupo composto pelos seguintos alunos: Jefferson de Jesus Santos, Kaione Oliveira, Djair Maikon, João Felipe e Matheus Santos Carvalho, esses advindos do Instituto Federal de Educação, Ciência e Tecnologia da Bahia, campus Jequié. O programa foi feito no intuito de diversificar os modos de estudo, relacionados aos assuntos de Geometria Espacial. Suportado em ambientes web e mobile.</p>
           </div>
         </div>
       </div>
@@ -183,7 +182,7 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Company Bio</h5>
+            <h5 class="white-text">SideForm</h5>
             <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
           </div>
           <div class="col l3 s12">
@@ -208,8 +207,7 @@
       </div>
       <div class="footer-copyright">
         <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-        </div>
+        @2018 Todos os direitos reservados</div>
       </div>
     </footer>
 
