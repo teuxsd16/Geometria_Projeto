@@ -84,7 +84,7 @@
           <br><br><br>
           <h1 class="header center teal-text text-lighten-2">Bem-vindo</h1>
           <div class="row center">
-            <h5 class="header col s12 light">A melhor forma para brincar com sólidos geométricos você encontra aqui.</h5>
+            <h5 class="header col s12 light">A melhor mistura de criatividade e tecnologia ao seu dispor.</h5>
           </div>
           <div class="row center">
             <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -144,10 +144,32 @@
 
     <div class="container">
       <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h4>Quem somos</h4>
-            <p class="left-align light">Somos um grupo composto pelos seguintos alunos: Jefferson de Jesus Santos, Kaione Oliveira, Djair Maikon, João Felipe e Matheus Santos Carvalho, esses advindos do Instituto Federal de Educação, Ciência e Tecnologia da Bahia, campus Jequié. O programa foi feito no intuito de diversificar os modos de estudo, relacionados aos assuntos de Geometria Espacial. O acesso fácil á educação é nossa função e queremos visar uma nova realidade fora dos livros.</p>
+        <div class="row" style="width:70%;">
+          <h4 align="center">Fale Conosco<h4>
+          <form method="post">
+            <div class="col s12 center">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input type="text" id="autocomplete-input" class="autocomplete" required>
+                <label for="autocomplete-input">Nome</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="autocomplete-input1" class="autocomplete" required>
+                <label for="autocomplete-input1">E-mail</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                 <textarea id="textarea1" class="materialize-textarea" maxlength="200" required></textarea>
+                 <label for="textarea1">Mensagem</label>
+             </div>
+             <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+
+            <!-- <p class="left-align light">Somos um grupo composto pelos seguintos alunos: Jefferson de Jesus Santos, Kaione Oliveira, Djair Maikon, João Felipe e Matheus Santos Carvalho, esses advindos do Instituto Federal de Educação, Ciência e Tecnologia da Bahia, campus Jequié. O programa foi feito no intuito de diversificar os modos de estudo, relacionados aos assuntos de Geometria Espacial. O acesso fácil á educação é nossa função e queremos visar uma nova realidade fora dos livros.</p> -->
+
           </div>
         </div>
       </div>
@@ -203,12 +225,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="<?php echo $caminhoServidor . '/view/js/materialize.min.js'; ?>"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
-        $('.parallax').parallax();
-        $(".dropdown-trigger").dropdown();
-        $('.scrollspy').scrollSpy();
-        $('.sidenav').sidenav();
-      });
+      M.AutoInit();
     </script>
   </body>
 </html>
