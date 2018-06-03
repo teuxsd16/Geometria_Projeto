@@ -93,9 +93,9 @@
       <div class="section no-pad-bot">
         <div class="container">
           <br><br>
-          <h1 class="header center teal-text text-lighten-2">Bem vindo</h1>
+          <h1 class="header center teal-text text-lighten-2">Bem-vindo</h1>
           <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            <h5 class="header col s12 light">A melhor forma para brincar com sólidos geométricos, você encontra aqui.</h5>
           </div>
           <div class="row center">
             <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -116,7 +116,7 @@
                 <i class="large material-icons">access_time</i>
               </h2>
               <h5 class="center">Aprenda mais rápido</h5>
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              <p class="light">Confira os assuntos estudados em sala de aula, só que agora, de uma forma prática. Teste seus conhecimetos e conclua que com a prática, a perfeição fica mais fácil de ser alcançada.</p>
             </div>
           </div>
           <div class="col s12 m4">
@@ -125,7 +125,7 @@
                 <i class="large material-icons">aspect_ratio</i>
               </h2>
               <h5 class="center">Brinque com os objetos</h5>
-              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+              <p class="light">Se divirta movendo os sólidos, analisando suas dimensões e usufruindo das animações</p>
             </div>
           </div>
           <div class="col s12 m4">
@@ -134,7 +134,7 @@
                 <i class="large material-icons">settings</i>
               </h2>
               <h5 class="center">Configure a forma que desejar</h5>
-              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              <p class="light">Liberdade para muudar os valores dos sólidos e conferir o resultado, em tempo real.</p>
             </div>
           </div>
         </div>
