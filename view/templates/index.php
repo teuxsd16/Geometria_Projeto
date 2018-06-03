@@ -63,7 +63,7 @@
       <li class="divider"></li>
       <li><a href="#!">three</a></li>
     </ul>
-    <nav class=" blue nav-extended">
+    <nav class="blue nav-extended">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">&nbsp;SideForm</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -92,16 +92,15 @@
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
-          <br><br>
+          <!-- <br><br><br> -->
           <h1 class="header center teal-text text-lighten-2">Bem-vindo</h1>
           <div class="row center">
             <h5 class="header col s12 light">A melhor forma para brincar com sólidos geométricos você encontra aqui.</h5>
           </div>
           <div class="row center">
-            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
           </div>
-          <br><br>
-
+          <!-- <br><br> -->
         </div>
       </div>
       <div class="parallax">  <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" ></div>
@@ -178,7 +177,7 @@
       </div>
     </div>
 
-    <footer class="page-footer teal">
+    <footer class="blue darken-1 page-footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
@@ -205,7 +204,7 @@
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
+      <div class="blue footer-copyright">
         <div class="container">
         @2018 Todos os direitos reservados</div>
       </div>
