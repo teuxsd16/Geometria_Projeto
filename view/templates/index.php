@@ -92,7 +92,9 @@
           <!-- <br><br> -->
         </div>
       </div>
-      <div class="parallax">  <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" ></div>
+      <div class="parallax">
+        <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" >
+      </div>
     </div>
 
     <div class="container">
