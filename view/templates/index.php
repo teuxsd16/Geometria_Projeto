@@ -32,6 +32,9 @@
         .parallax-container .section {
           width: 100%;
         }
+        #index-banner{
+          font-weight: bold;
+        }
       </style>
 
     <title>SideForm</title>
@@ -62,7 +65,9 @@
       <li class="divider"></li>
       <li><a href="#!">three</a></li>
     </ul>
-    <nav class="blue nav-extended">
+
+    <div id="index-banner" class="parallax-container">
+    <nav class="transparent nav-extended">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">&nbsp;SideForm</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -77,8 +82,6 @@
         </ul>
       </div>
     </nav>
-
-    <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
           <br><br><br>
