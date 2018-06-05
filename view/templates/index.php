@@ -69,7 +69,7 @@
     <div id="index-banner" class="parallax-container">
     <nav class="transparent nav-extended">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">&nbsp;SideForm1</a>
+        <a href="#" class="brand-logo">&nbsp;SideForm</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="sidenav" id="mobile-demo">
           <li><a href="forum.php">Forúm</a></li>
