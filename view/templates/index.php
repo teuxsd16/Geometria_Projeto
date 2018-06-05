@@ -20,8 +20,8 @@
           background-position: center;
         }
         nav{
-          padding-left: 15%;
-          padding-right: 15%;
+          padding-left: 10%;
+          padding-right: 10%;
         }
         .parallax-container {
           /*min-height: 380px;
@@ -34,6 +34,7 @@
         }
         #index-banner{
           font-weight: bold;
+
         }
       </style>
 
@@ -67,9 +68,9 @@
     </ul>
 
     <div id="index-banner" class="parallax-container">
-    <nav class="brown nav-extended">
+    <nav class="transparent nav-extended">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">&nbsp;Cangaço Tech</a>
+        <a href="#" class="brand-logo">&nbsp;CangaçoTech</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="sidenav" id="mobile-demo">
           <li><a href="forum.php">Forúm</a></li>
@@ -85,9 +86,9 @@
       <div class="section no-pad-bot">
         <div class="container">
           <br><br><br>
-          <h1 class="header center">Bem-vindo</h1>
+          <h1 class="header center text-brown" style="text-shadow: 1px 1px 10px black;  ">Bem-vindo</h1>
           <div class="row center">
-            <h5 class="header col s12 light">A melhor mistura de criatividade e tecnologia ao seu dispor.</h5>
+            <h5 class="header col s12 light" style="text-shadow: 1px 1px 10px black;  ">A melhor mistura de criatividade e tecnologia ao seu dispor.</h5>
           </div>
           <div class="row center">
             <a href="#" id="download-button" class="btn-large waves-effect waves-light teal brown">Get Started</a>
@@ -96,7 +97,7 @@
         </div>
       </div>
       <div class="parallax">
-        <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cangaco.jpg'; ?>" >
+        <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cover1.jpg'; ?>" >
       </div>
     </div>
 
@@ -138,12 +139,12 @@
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h5 class="header col s12 brown">A modern responsive front-end framework based on Material Design</h5>
+            <h4 class="header col s12 " style="text-shadow: 1px 1px 10px blue;  ">Soluções e inovações tecnológicas sempre. </h4>
           </div>
         </div>
       </div>
       <div class="parallax">
-        <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover4.jpg'; ?>" alt="Unsplashed background img 2">
+        <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover2.jpeg'; ?>" alt="Unsplashed background img 2">
       </div>
     </div>
 
