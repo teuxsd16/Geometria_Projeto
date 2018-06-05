@@ -51,23 +51,24 @@
   ?>
 
   <body>
-    <!-- Conteúdo -->
-    <ul id="dropdownConteudo" class="dropdown-content">
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
-    </ul>
-    <!-- Exercícios -->
-    <ul id="dropdownExercicios" class="dropdown-content">
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
-    </ul>
 
     <div id="index-banner" class="parallax-container">
-    <nav class="transparent nav-extended">
+
+      <!-- Conteúdo -->
+      <ul id="dropdownConteudo" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+      <!-- Exercícios -->
+      <ul id="dropdownExercicios" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+      <nav class="transparent nav-extended">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">&nbsp;SideForm</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -82,6 +83,7 @@
         </ul>
       </div>
     </nav>
+
       <div class="section no-pad-bot">
         <div class="container">
           <br><br><br>
@@ -103,33 +105,91 @@
     <div class="container">
       <div class="section">
         <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="large material-icons">access_time</i>
-              </h2>
-              <h5 class="center">Aprenda mais rápido</h5>
-              <p class="light">Confira os assuntos estudados em sala de aula, só que agora, de uma forma prática. Teste seus conhecimetos e conclua que com a prática, a perfeição fica mais fácil de ser alcançada.</p>
+
+          <div class="col s12 m4 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="<?php echo $caminhoServidor . '/view/img/imgCard.jpg'; ?>">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="large material-icons">aspect_ratio</i>
-              </h2>
-              <h5 class="center">Brinque com os objetos</h5>
-              <p class="light">Se divirta movendo os sólidos, analisando suas dimensões e usufruindo das animações</p>
+
+          <div class="col s12 m4 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="<?php echo $caminhoServidor . '/view/img/imgCard.jpg'; ?>">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text">
-                <i class="large material-icons">settings</i>
-              </h2>
-              <h5 class="center">Configure a forma que desejar</h5>
-              <p class="light">Liberdade para mudar os valores dos sólidos e conferir o resultado, em tempo real.</p>
+
+          <div class="col s12 m4 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="<?php echo $caminhoServidor . '/view/img/imgCard.jpg'; ?>">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
+
+          <div class="col s12 m4 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="<?php echo $caminhoServidor . '/view/img/imgCard.jpg'; ?>">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="<?php echo $caminhoServidor . '/view/img/imgCard.jpg'; ?>">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4 card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="<?php echo $caminhoServidor . '/view/img/imgCard.jpg'; ?>">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
