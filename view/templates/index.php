@@ -37,7 +37,7 @@
         }
       </style>
 
-    <title>SideForm</title>
+    <title>CangaçoTech</title>
   </head>
 
   <?php
@@ -67,9 +67,9 @@
     </ul>
 
     <div id="index-banner" class="parallax-container">
-    <nav class="transparent nav-extended">
+    <nav class="brown nav-extended">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">&nbsp;SideForm</a>
+        <a href="#" class="brand-logo">&nbsp;Cangaço Tech</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="sidenav" id="mobile-demo">
           <li><a href="forum.php">Forúm</a></li>
@@ -85,18 +85,18 @@
       <div class="section no-pad-bot">
         <div class="container">
           <br><br><br>
-          <h1 class="header center teal-text text-lighten-2">Bem-vindo</h1>
+          <h1 class="header center">Bem-vindo</h1>
           <div class="row center">
             <h5 class="header col s12 light">A melhor mistura de criatividade e tecnologia ao seu dispor.</h5>
           </div>
           <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal brown">Get Started</a>
           </div>
           <!-- <br><br> -->
         </div>
       </div>
       <div class="parallax">
-        <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cover.jpg'; ?>" >
+        <img class="imgConserto1" src="<?php echo $caminhoServidor . '/view/img/cangaco.jpg'; ?>" >
       </div>
     </div>
 
@@ -138,12 +138,12 @@
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            <h5 class="header col s12 brown">A modern responsive front-end framework based on Material Design</h5>
           </div>
         </div>
       </div>
       <div class="parallax">
-        <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover2.jpg'; ?>" alt="Unsplashed background img 2">
+        <img class="imgConserto" src="<?php echo $caminhoServidor . '/view/img/cover4.jpg'; ?>" alt="Unsplashed background img 2">
       </div>
     </div>
 
